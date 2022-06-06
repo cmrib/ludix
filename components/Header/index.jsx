@@ -1,4 +1,4 @@
-import { Flex, Text, Image, Box, Input, Button, IconButton, HStack, background } from "@chakra-ui/react";
+import { Flex, Text, Image, Box, Input, Button, IconButton, HStack } from "@chakra-ui/react";
 import { FiUser } from 'react-icons/fi'
 
 export function Header() {
@@ -52,19 +52,19 @@ export function Header() {
 
                 <HStack spacing="24px">
 
-                    <Button fontSize="sm" variant="ghost" _hover={{ color: "purple", background: "white" }}
+                    <Button variant="ghost" _hover={{ color: "purple", background: "white" }}
                     > Home</Button>
-                    <Button fontSize="sm" variant="ghost" _hover={{ color: "purple", background: "white" }}
+                    <Button variant="ghost" _hover={{ color: "purple", background: "white" }}
                     >Sobre nós</Button>
-                    <Button fontSize="sm" variant="ghost" _hover={{ color: "purple", background: "white" }}
+                    <Button variant="ghost" _hover={{ color: "purple", background: "white" }}
                     >Produtos</Button>
-                    <Button fontSize="sm" variant="ghost" _hover={{ color: "purple", background: "white" }}
+                    <Button variant="ghost" _hover={{ color: "purple", background: "white" }}
                     >Blog</Button>
-                    <Button fontSize="sm" variant="ghost" _hover={{ color: "purple", background: "white" }}
+                    <Button variant="ghost" _hover={{ color: "purple", background: "white" }}
                     >Contos eróticos</Button>
-                    <Button fontSize="sm" variant="ghost" _hover={{ color: "purple", background: "white" }}
+                    <Button variant="ghost" _hover={{ color: "purple", background: "white" }}
                     >Materiais Gratuitos</Button>
-                    <Button fontSize="sm" variant="ghost" _hover={{ color: "purple", background: "white" }}
+                    <Button variant="ghost" _hover={{ color: "purple", background: "white" }}
                     >Contato</Button>
 
                 </HStack>
