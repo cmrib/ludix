@@ -1,5 +1,7 @@
 import { Flex, Text, Image, Box, Input, Button, IconButton, HStack } from "@chakra-ui/react";
 import { FiUser } from 'react-icons/fi'
+import { BsBoxSeam } from 'react-icons/bs'
+import { IoMdHelp } from 'react-icons/io'
 
 export function Header() {
     return (
@@ -35,13 +37,13 @@ export function Header() {
                                 colorScheme='purple'
                                 aria-label='Search database'
                                 borderRadius="50%"
-                                icon={<FiUser />}
+                                icon={<BsBoxSeam />}
                             />
                             <IconButton
                                 colorScheme='purple'
                                 aria-label='Search database'
                                 borderRadius="50%"
-                                icon={<FiUser />}
+                                icon={<IoMdHelp />}
                             />
                         </HStack>
                     </Flex>

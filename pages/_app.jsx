@@ -1,12 +1,5 @@
-import { ChakraProvider, extendTheme } from '@chakra-ui/react'
-
-const theme = extendTheme({
-  fonts: {
-    body: 'Roboto'
-  }
-})
-
-
+import { ChakraProvider } from '@chakra-ui/react'
+import { theme } from '../styles/theme'
 
 function MyApp({ Component, pageProps }) {
   return (
