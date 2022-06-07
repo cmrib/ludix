@@ -2,7 +2,7 @@ import { Flex, Image, Text, Box } from "@chakra-ui/react"
 
 export function Infos() {
     return (
-        <Flex width="100%" borderY="1px">
+        <Flex as="section" width="100%" borderY="1px">
             <Flex width="100%" maxWidth={1200} h="100px" margin="auto" justify="space-between" py="20">
 
                 <Flex align="center" w="250px" justify="space-between">

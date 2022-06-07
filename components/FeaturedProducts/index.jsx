@@ -34,7 +34,7 @@ export function FeaturedProducts() {
             <Flex justify="space-between">
 
                 {products.map(product => {
-                    return <ProductItem product={product} />
+                    return <ProductItem product={product} key={product.name} />
                 })}
 
             </Flex>
