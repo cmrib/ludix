@@ -22,7 +22,7 @@ export function Slider() {
             <SwiperSlide>
                 <Flex
                     width="100%"
-                    h="550px"
+                    h="600px"
                     backgroundImage="banner1.png"
                     bgSize="cover"
                 >
@@ -31,7 +31,7 @@ export function Slider() {
             <SwiperSlide>
                 <Flex
                     width="100%"
-                    h="550px"
+                    h="600px"
                     backgroundImage="banner2.png"
                     bgSize="cover"
                 >
@@ -40,7 +40,7 @@ export function Slider() {
             <SwiperSlide>
                 <Flex
                     width="100%"
-                    h="550px"
+                    h="600px"
                     backgroundImage="banner3.png"
                     bgSize="cover"
                 >

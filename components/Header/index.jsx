@@ -15,7 +15,7 @@ export function Header() {
             <Box bg="white" w="100%" align="center" justify="space-between" py="12">
                 <Flex maxWidth={1200} justify="space-between" align="center" >
 
-                    <Flex align="center" borderBottom="2px" borderColor="#57308b" h="40px" w="220px">
+                    <Flex align="center" borderBottom="1px" borderColor="#57308b" h="40px" w="220px">
                         <Input variant="unstyled" placeholder="Procurar produtos..." color="#57308b" />
                         <Button variant="link" color="#57308b">Buscar</Button>
                     </Flex>
