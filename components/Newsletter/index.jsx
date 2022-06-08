@@ -2,7 +2,9 @@ import { Flex, Text, Input, Button, VStack } from "@chakra-ui/react"
 
 export function Newsletter() {
     return (
-        <Flex backgroundImage="bg_newsletter.jpeg"
+        <Flex
+            as="section"
+            backgroundImage="bg_newsletter.jpeg"
             w="100%" height="250px"
             mt="10"
             backgroundPosition="contain"
